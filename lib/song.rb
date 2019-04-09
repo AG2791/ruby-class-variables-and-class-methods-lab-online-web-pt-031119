@@ -1,13 +1,11 @@
 class Song
-<<<<<<< HEAD
     attr_accessor :name, :artist, :genre
 
      @@count = 0                  
-=======
-    attr_accessor :name, :artist, :genre   ##attributes
 
-     @@count = 0                      #sounter for attributes
->>>>>>> 7ed172e8125737cc541a49775ed6b91a751a8476
+    attr_accessor :name, :artist, :genre ##attributes
+
+     @@count = 0       #counter for attributes
      @@genres = []                   
      @@artists = []
     @@genre_count = {}
